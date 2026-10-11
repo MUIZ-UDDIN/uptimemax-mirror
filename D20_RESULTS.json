@@ -1,0 +1,18 @@
+{
+ "replay_1": {
+  "eid": "5a3be57c-5a2f-429a-a60e-3c69cd0fedb4",
+  "replayed": null
+ },
+ "replay_2": {
+  "eid": "5a3be57c-5a2f-429a-a60e-3c69cd0fedb4",
+  "replayed": true
+ },
+ "same_record": true,
+ "trace_count_after_replays": 1,
+ "different_fixture_creates_new": true,
+ "_meta": {
+  "build": "V272.2-SANDBOX-D0608 + D-20a",
+  "date": "2026-10-11",
+  "all_pass": true
+ }
+}
