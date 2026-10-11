@@ -1,27 +1,27 @@
 {
- "mirror_updated_utc": "2026-10-11T17:34:27Z",
- "origin": "https://testing.muizuddin.com/verify (canonical live surface)",
- "purpose": "D-01 static mirror for OpenAI (its tool refuses the canonical domain). Static snapshots - they do NOT prove live process identity, fresh historian records or live results.",
+ "mirror_updated_utc": "2026-10-11T18:13:36Z",
+ "origin": "https://testing.muizuddin.com/verify",
+ "purpose": "D-01 static mirror for OpenAI. Static snapshots - they do NOT prove live process identity, fresh historian records or live results.",
  "files": [
   {
    "file": "verify_service.py",
-   "bytes": 65025,
-   "sha256": "db571154c384c9e73a389ae644ceb4f4fe7cbfa71fa46c7e3e3eefd251af24e5"
+   "bytes": 65049,
+   "sha256": "15c1c22180207b114fb2b178d2486f5fdd4f10dfd8913331b18d68e50640d0ad"
   },
   {
    "file": "access-health.json",
-   "bytes": 2952,
-   "sha256": "f53e559de66385c2965c5f3c3b5a9616112f6f7704f69723287f1396a961412e"
+   "bytes": 2953,
+   "sha256": "7b0eb1c795549bf8f3383f8101d79adc89a56fb9e08a5420e03b94ccb9df7886"
   },
   {
    "file": "source-index.json",
-   "bytes": 9175,
-   "sha256": "814d8584d4e8a104f0b83ef9eba9eb8e531bda27fc48cebe598f2c0a057efe4a"
+   "bytes": 9372,
+   "sha256": "dfd3951ed749bf25ee8039507049c1ae1084740b3890ef77f40a72845450ca1c"
   },
   {
    "file": "buildinfo.json",
    "bytes": 1170,
-   "sha256": "c82969daf8f7c2ed43358486582fde3c48d5999c83a4b410654bc41e37fd7891"
+   "sha256": "713d26dbf3d5d3b9b1b5d5f644e785c38068432a00268bef4fd4129c2fb0af7f"
   },
   {
    "file": "D20_RESULTS.json",
@@ -30,8 +30,8 @@
   }
  ],
  "identity_tie": {
-  "verify_service_mirror_sha256": "db571154c384c9e73a389ae644ceb4f4fe7cbfa71fa46c7e3e3eefd251af24e5",
-  "access_health_verification_service_build_sha256": "db571154c384c9e73a389ae644ceb4f4fe7cbfa71fa46c7e3e3eefd251af24e5",
+  "mirror_vs_sha": "15c1c22180207b114fb2b178d2486f5fdd4f10dfd8913331b18d68e50640d0ad",
+  "ah_vs": "15c1c22180207b114fb2b178d2486f5fdd4f10dfd8913331b18d68e50640d0ad",
   "match": true
  }
 }

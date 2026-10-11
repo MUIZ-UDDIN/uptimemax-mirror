@@ -554,6 +554,7 @@ _ALLOWED_TEXT = {
     "D05_LEDGER_d68e1cdd-92b3-46b1-aa65-22849e9ff235.json",
     "engine_identity_diff_805f0d10_to_e6a96d8d.md",
     "D15_FILLED_Muiz_2026-10-11_v3.csv",
+    "RESET_TRIAL_ACCOUNT_STATEMENT.md",
     "uptimemax_api_engine_identity.py",
     "TAGGROUPS_dump.txt", "historian_schema.txt",
     "tag-type-definition_UptimeMAX_ScrewCompressors_udts.json",
@@ -733,7 +734,7 @@ async def buildinfo():
 # execution_id is validated against a strict UUID grammar on this layer too, so
 # no arbitrary filesystem access is possible. Responses are no-store.
 ENGINE_TRACE_BASE_URL = _CFG["ENGINE_TRACE_BASE_URL"]
-SANDBOX_ENGINE_BASE_URL = "http://198.199.121.125:8011/api/v1"  # D-20b: isolated sandbox engine (read-only trace lookups for display read-back)
+SANDBOX_ENGINE_BASE_URL = _CFG["SANDBOX_ENGINE_BASE_URL"]  # D-20b: isolated sandbox engine (from protected config, D-16 policy)
 _UUID_RE = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 
 
