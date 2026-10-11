@@ -1,43 +1,37 @@
 {
- "mirror_created_utc": "2026-10-11T15:17:32Z",
+ "mirror_updated_utc": "2026-10-11T17:34:27Z",
  "origin": "https://testing.muizuddin.com/verify (canonical live surface)",
- "purpose": "D-01 static mirror for OpenAI (its tool refuses the canonical domain). Static snapshots - they do NOT prove live process identity, fresh historian records or live results; those require the live routes, which reviewers continue to test.",
+ "purpose": "D-01 static mirror for OpenAI (its tool refuses the canonical domain). Static snapshots - they do NOT prove live process identity, fresh historian records or live results.",
  "files": [
   {
    "file": "verify_service.py",
-   "bytes": 64872,
-   "sha256": "c10c62e7041050c4afe6b4bf3f69cef9095f1f98c8056b1684ef5753706290e3",
-   "original_url": "https://testing.muizuddin.com/verify/source/verify_service.py"
+   "bytes": 65025,
+   "sha256": "db571154c384c9e73a389ae644ceb4f4fe7cbfa71fa46c7e3e3eefd251af24e5"
   },
   {
    "file": "access-health.json",
-   "bytes": 2955,
-   "sha256": "9b6d01a177614eae1bb8b648f8cb001ebb0748486e7dfdb4834df8e1e0059955",
-   "original_url": "https://testing.muizuddin.com/verify/access-health"
+   "bytes": 2952,
+   "sha256": "f53e559de66385c2965c5f3c3b5a9616112f6f7704f69723287f1396a961412e"
   },
   {
    "file": "source-index.json",
-   "bytes": 8517,
-   "sha256": "8bd20bdad451bad4b1675d8fd4c222cd8160dbc806117333147a5a304336ccad",
-   "original_url": "https://testing.muizuddin.com/verify/source"
+   "bytes": 9175,
+   "sha256": "814d8584d4e8a104f0b83ef9eba9eb8e531bda27fc48cebe598f2c0a057efe4a"
   },
   {
    "file": "buildinfo.json",
    "bytes": 1170,
-   "sha256": "49c13dbe334797881a449aae488f3a3c0f9f403d240e7aa923eccd6fdbfac038",
-   "original_url": "https://testing.muizuddin.com/verify/buildinfo"
+   "sha256": "c82969daf8f7c2ed43358486582fde3c48d5999c83a4b410654bc41e37fd7891"
   },
   {
    "file": "D20_RESULTS.json",
    "bytes": 373,
-   "sha256": "2ac773030402c6957cd192705255cefde0415497c20831c4631c9a4da7cb0e64",
-   "original_url": "https://testing.muizuddin.com/verify/source/D20_RESULTS.json"
+   "sha256": "2ac773030402c6957cd192705255cefde0415497c20831c4631c9a4da7cb0e64"
   }
  ],
  "identity_tie": {
-  "verify_service_mirror_sha256": "c10c62e7041050c4afe6b4bf3f69cef9095f1f98c8056b1684ef5753706290e3",
-  "access_health_verification_service_build_sha256": "c10c62e7041050c4afe6b4bf3f69cef9095f1f98c8056b1684ef5753706290e3",
-  "match": true,
-  "note": "the mirrored verify_service.py bytes are the exact bytes the running process reports as its identity"
+  "verify_service_mirror_sha256": "db571154c384c9e73a389ae644ceb4f4fe7cbfa71fa46c7e3e3eefd251af24e5",
+  "access_health_verification_service_build_sha256": "db571154c384c9e73a389ae644ceb4f4fe7cbfa71fa46c7e3e3eefd251af24e5",
+  "match": true
  }
 }
