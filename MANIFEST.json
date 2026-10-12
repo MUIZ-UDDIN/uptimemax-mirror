@@ -1,27 +1,27 @@
 {
- "mirror_updated_utc": "2026-10-11T18:13:36Z",
+ "mirror_updated_utc": "2026-10-12T03:46:06Z",
  "origin": "https://testing.muizuddin.com/verify",
  "purpose": "D-01 static mirror for OpenAI. Static snapshots - they do NOT prove live process identity, fresh historian records or live results.",
  "files": [
   {
    "file": "verify_service.py",
-   "bytes": 65049,
-   "sha256": "15c1c22180207b114fb2b178d2486f5fdd4f10dfd8913331b18d68e50640d0ad"
+   "bytes": 65095,
+   "sha256": "69688aea1bc177046cafa2a1b97a78ebedda5afef1def4efaf6366a5471656f7"
   },
   {
    "file": "access-health.json",
-   "bytes": 2953,
-   "sha256": "7b0eb1c795549bf8f3383f8101d79adc89a56fb9e08a5420e03b94ccb9df7886"
+   "bytes": 2954,
+   "sha256": "27cfda408af7480e014e612c662d9d533c1aeda01073fc5c0264fd1f2b0271a2"
   },
   {
    "file": "source-index.json",
-   "bytes": 9372,
-   "sha256": "dfd3951ed749bf25ee8039507049c1ae1084740b3890ef77f40a72845450ca1c"
+   "bytes": 9581,
+   "sha256": "96da086325e8c701c8f5096d0b43c22fc42d5d438499f45afe96754961b0acc5"
   },
   {
    "file": "buildinfo.json",
    "bytes": 1170,
-   "sha256": "713d26dbf3d5d3b9b1b5d5f644e785c38068432a00268bef4fd4129c2fb0af7f"
+   "sha256": "de7511d2a6d0febc9ad7264624a7ba91612b8f398211bc770e697e3ddb69b60c"
   },
   {
    "file": "D20_RESULTS.json",
@@ -30,8 +30,8 @@
   }
  ],
  "identity_tie": {
-  "mirror_vs_sha": "15c1c22180207b114fb2b178d2486f5fdd4f10dfd8913331b18d68e50640d0ad",
-  "ah_vs": "15c1c22180207b114fb2b178d2486f5fdd4f10dfd8913331b18d68e50640d0ad",
+  "mirror_vs_sha": "69688aea1bc177046cafa2a1b97a78ebedda5afef1def4efaf6366a5471656f7",
+  "ah_vs": "69688aea1bc177046cafa2a1b97a78ebedda5afef1def4efaf6366a5471656f7",
   "match": true
  }
 }

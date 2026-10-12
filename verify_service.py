@@ -555,6 +555,7 @@ _ALLOWED_TEXT = {
     "engine_identity_diff_805f0d10_to_e6a96d8d.md",
     "D15_FILLED_Muiz_2026-10-11_v3.csv",
     "RESET_TRIAL_ACCOUNT_STATEMENT.md",
+    "RAGPANEL_EXECUTION_ID_PATCH_REQUEST.md",
     "uptimemax_api_engine_identity.py",
     "TAGGROUPS_dump.txt", "historian_schema.txt",
     "tag-type-definition_UptimeMAX_ScrewCompressors_udts.json",
